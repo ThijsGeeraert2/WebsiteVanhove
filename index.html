@@ -70,41 +70,40 @@
       
 
 
-    <section class="px-[5%] flex flex-col gap-5 justify-center items-center mb-32 lg:gap-20">
+    <section class="px-[5%] flex flex-col gap-5 justify-center items-center mb-6 lg:gap-20 lg:mb-32">
       <div class="flex flex-col text-center mb-2 gap-4 mt-32">
         <h1 class="text-6xl font-bold">Onze <span class="text-red"> diensten</span></h1>
         <p>Wij voeren verschillende soorten schilder en decoratiewerken uit.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 container">
         <div class="flex justify-center items-center flex-col">
-          <img src="./images/schilder.jpg" alt="" class="w-96 mb-4">
+          <img src="./images/schilder.jpg" alt="" class="w-96 mb-4 rounded-[10px]">
           <p class="font-bold">Schilderen</p>
         </div>
         <div class="flex justify-center items-center flex-col">
-          <img src="./images/stoel.jpg" alt="" class="w-96 mb-4">
+          <img src="./images/stoel.jpg" alt="" class="w-96 mb-4 rounded-[10px]">
           <p class="font-bold">Behangen</p>
         </div>
         <div class="flex justify-center items-center flex-col">
-          <img src="./images/vloer.jpg" alt="" class="w-96 h-[576px] mb-4">
+          <img src="./images/vloer.jpg" alt="" class="w-96 h-[576px] mb-4 rounded-[10px]">
           <p class="font-bold">Vloerbekleding</p>
         </div>
         <div class="flex justify-center items-center flex-col">
-          <img src="./images/laminaten.png" alt="" class="w-96 h-[576px]  mb-4">
+          <img src="./images/laminaten.png" alt="" class="w-96 h-[576px]  mb-4 rounded-[10px]">
           <p class="font-bold">Laminaten</p>
         </div>
         <div class="flex justify-center items-center flex-col">
-          <img src="./images/kalei.jpg" alt="" class="w-96 h-[576px] mb-4">
+          <img src="./images/kalei.jpg" alt="" class="w-96 h-[576px] mb-4 rounded-[10px]">
           <p class="font-bold">Kaleiwerk</p>
         </div>
         <div class="flex justify-center items-center flex-col">
-          <img src="./images/raam.jpg" alt="" class="w-96 mb-4">
+          <img src="./images/raam.jpg" alt="" class="w-96 mb-4 rounded-[10px]">
           <p class="font-bold">Raamdecoratie</p>
         </div>
-      </div>
-      <button class="py-3 px-6 bg-grey rounded-lg">Diensten</button>
+      </div>  
     </section>
 
-    <section class="px-[5%] flex flex-col self-stretch  bg-grey">
+    <section class="px-[5%] pb-6 flex flex-col self-stretch  bg-grey">
       <div class="my-10 ">
         <h2 class="text-4xl font-bold mb-3">Onze <span class="text-red">projecten</span> </h2>
         <p>Hieronder vindt u 2 recente projecten, <b>klik</b> op de afbeelding voor een na</p>
@@ -121,9 +120,10 @@
           <p>Hooglede</p>
         </div>
       </div>
+      <button class="py-2 px-3 bg-white rounded-lg max-w-24 md:hidden"><p class="font-medium">Projecten</p></button>
     </section>
 
-    <section class="px-[5%]">
+    <section class="px-[5%] ">
       <div class="my-10 ">
         <h2 class="text-4xl font-bold mb-3">Heeft u een <span class="text-red">vraag</span>  of wilt u een <span class="text-red">afspraak</span>  maken?</span> </h2>
         <p>Neem contact met ons op via onderstaande gegevens</p>
@@ -161,6 +161,43 @@
         </div>
       </div>
     </section>
+
+    <footer class="px-[5%] py-12 md:py-18 lg:py-20 bg-grey">
+      <div class=" w-full">
+        <div
+          class="grid grid-cols-1 items-center justify-center justify-items-center gap-x-[4vw] gap-y-12 pb-12 md:pb-18 lg:grid-cols-[0.25fr_1fr_0.25fr] lg:justify-between lg:gap-y-4 lg:pb-20">
+          <div class="lg:justify-self-start">
+            <p class="font-bold leading-7 text-xl">Hervules</p>
+          </div>
+          <ul
+            class="grid grid-flow-row grid-cols-1 items-start justify-center justify-items-center gap-6 md:grid-flow-col md:grid-cols-[max-content] md:justify-center md:justify-items-start">
+            <li class="font-semibold">
+              <a href="index.html"
+                class="ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">Startpagina</a>
+            </li>
+            <li class="font-semibold">
+              <a href="#"
+                class="ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">Projecten</a>
+            </li>
+        
+          </ul>
+          <div class="flex items-start justify-start justify-items-center gap-x-3 lg:justify-self-end">
+            <a href="https://www.facebook.com/profile.php?id=100063473533769" target="_blank"
+              class="ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2"><svg
+                width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22 12.0611C22 6.50451 17.5229 2 12 2C6.47715 2 2 6.50451 2 12.0611C2 17.0828 5.65684 21.2452 10.4375 22V14.9694H7.89844V12.0611H10.4375V9.84452C10.4375 7.32296 11.9305 5.93012 14.2146 5.93012C15.3088 5.93012 16.4531 6.12663 16.4531 6.12663V8.60261H15.1922C13.95 8.60261 13.5625 9.37822 13.5625 10.1739V12.0611H16.3359L15.8926 14.9694H13.5625V22C18.3432 21.2452 22 17.083 22 12.0611Z"
+                  fill="currentColor"></path>
+              </svg></a>
+          </div>
+        </div>
+        <div class="h-px w-full bg-primary"></div>
+        <div
+          class="flex flex-col-reverse items-center justify-center justify-items-center pt-6 text-sm md:flex-row md:gap-x-6 md:pt-8">
+          <p class="mt-8 md:mt-0">© 2024 Hervules. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
 
 
 
