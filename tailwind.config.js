@@ -12,10 +12,10 @@ module.exports = {
         'light' : '#EAE9FC',
         'white' : '#FFFFFF',
         'secbg' : '#04040A',
-        'red' : '#B42318',
+        'red' : '#FF2D16',
         'grey' : '#EEE'
       },  
-      
+
       extend: {
         fontFamily: {
           'sans' : 'Red Hat Display, sans-serif'
