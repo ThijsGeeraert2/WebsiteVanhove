@@ -15,5 +15,13 @@ module.exports = {
         'red' : '#B42318',
         'grey' : '#EEE'
       },  
+      
+      extend: {
+        fontFamily: {
+          'sans' : 'Red Hat Display, sans-serif'
+        }
+      }
     },
+
+ 
   };
