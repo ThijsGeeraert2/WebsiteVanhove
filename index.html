@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/flashcard.css">
 </head>
 <body class="">
     <nav class="flex h-auto w-full items-center bg-grey py-4 lg:min-h-18 lg:px-[5%]">
@@ -79,43 +80,74 @@
         <p>Wij voeren verschillende soorten schilder en decoratiewerken uit.</p>
       </div>
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 container">
-        <div class="group flex justify-center items-center flex-col relative">
-       
-            <div class=" h-[576px] w-96 bg-[url('/images/stoel.jpg')] bg-red bg-cover bg-no-repeat group-hover:blur ease-in duration-200"></div>
-            <!-- <img  src="./images/schilder.jpg" alt="" class="w-96 h-[576px]  rounded-[10px] relative bg-blend-multiply bg-red"> -->
-            <div class="absolute opacity-0 bg-grey bg-opacity-70 w-96 h-[576px] group-hover:opacity-100 ease-in duration-200 mb-4 ">
-              <p>decoratieve techniek: kalkverf en kalei</p>
-              <p>buitenschilderwerk</p>
-            </div> 
-
-        
-        
-
-            <p class="font-bold mt-4 group-hover:mt-0 group-hover:hidden ease-in duration-200">Schilderen</p>
-        </div>
-        <div class="group flex justify-center items-center flex-col">
-          <img src="./images/stoel.jpg" alt="" class="w-96 h-[576px] rounded-[10px] group-hover:blur ease-in duration-200">
-          <div class="absolute opacity-0 bg-grey bg-opacity-20966 h-60 group-hover:opacity-100 ease-in duration-200">
-            <p>decoratieve techniek: kalkverf en kalei</p>
-            <p>buitenschilderwerk</p>
+        <div class="flashcontainer ">
+          <div class="card">
+            <img src="./images/schilder.jpg"  alt="" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <div class="back">
+              <p>Decoratieve technieken: kalkverf en kalei</p>
+              <p>Binnenschilderwerk</p>
+              <p>Buitenschilderwerk</p>
+              <p>Gevels</p>
+            </div>
           </div>
-          <p class="font-bold">Behangen</p>
         </div>
-        <div class="flex justify-center items-center flex-col">
-          <img src="./images/vloer.jpg" alt="" class="w-96 h-[576px] mb-4 rounded-[10px]">
-          <p class="font-bold">Vloerbekleding</p>
+        <div class="flashcontainer ">
+          <div class="card">
+            <img src="./images/stoel.jpg"  alt="" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <div class="back">
+              <p>Vlies</p>
+              <p>Natuurproduct</p>
+              <p>Vinyl</p>
+              <p>Textiel</p>
+
+            </div>
+          </div>
         </div>
-        <div class="flex justify-center items-center flex-col">
-          <img src="./images/laminaten.png" alt="" class="w-96 h-[576px]  mb-4 rounded-[10px]">
-          <p class="font-bold">Laminaten</p>
+        <div class="flashcontainer ">
+          <div class="card">
+            <img src="./images/vloer.jpg"  alt="" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <div class="back">
+              <p>Tapijt</p>
+              <p>Vinyl</p>
+              <p>Tegels</p>
+              <p>Parket</p>
+
+            </div>
+          </div>
         </div>
-        <div class="flex justify-center items-center flex-col">
-          <img src="./images/kalei.jpg" alt="" class="w-96 h-[576px] mb-4 rounded-[10px]">
-          <p class="font-bold">Kaleiwerk</p>
+        <div class="flashcontainer ">
+          <div class="card">
+            <img src="./images/laminaten.png"  alt="" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <div class="back">
+              <p>Quick-step Master Installer</p>
+              <p>PVC-Laminaat</p>
+              <p>(Afgewerkte) Parketvloeren</p>
+              <p>GevMilieuvriendelijk Laminaatels</p>
+
+            </div>
+          </div>
         </div>
-        <div class="flex justify-center items-center flex-col">
-          <img src="./images/raam.jpg" alt="" class="w-96 h-[576px] mb-4 rounded-[10px]">
-          <p class="font-bold">Raamdecoratie</p>
+        <div class="flashcontainer ">
+          <div class="card">
+            <img src="./images/kalei.jpg"  alt="" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <div class="back">
+              <p>The Performer</p>
+              <p>The Allrounder</p>
+              <p>The Mineral</p>
+              <p>The Original</p>
+            </div>
+          </div>
+        </div>
+        <div class="flashcontainer ">
+          <div class="card">
+            <img src="./images/raam.jpg"  alt="" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <div class="back">
+              <p>Horizontale Lamellen</p>
+              <p>Verticale Lamellen</p>
+              <p>Zonnewering</p>
+              <p>Glas-en Overgordijnen</p>
+            </div>
+          </div>
         </div>
       </div>  
     </section>
