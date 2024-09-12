@@ -1,10 +1,11 @@
 html {
   scroll-behavior: smooth;
+
 }
 
 .flashcontainer {
-    width: 24rem;
-    height: 576px;
+    width: 20rem;
+    height: 478px;
     perspective: 800px;
   }
   
@@ -39,4 +40,11 @@ html {
     justify-content: center;
     align-items: center;
     gap: 5rem;
+  }
+
+  @media (min-width: 567px) {
+    .flashcontainer {
+      width: 24rem;
+      height: 576px;
+    }
   }
