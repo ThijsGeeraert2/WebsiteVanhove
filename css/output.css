@@ -570,12 +570,6 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
@@ -674,10 +668,6 @@ video {
   margin-top: 8rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -688,6 +678,34 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-32 {
+  margin-left: 8rem;
+}
+
+.ml-36 {
+  margin-left: 9rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .block {
@@ -722,10 +740,6 @@ video {
 
 .h-2\/3 {
   height: 66.666667%;
-}
-
-.h-60 {
-  height: 15rem;
 }
 
 .h-\[576px\] {
@@ -804,6 +818,10 @@ video {
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .justify-items-center {
   justify-items: center;
 }
@@ -860,30 +878,9 @@ video {
   background-color: rgb(1 1 4 / var(--tw-bg-opacity));
 }
 
-.bg-red {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 45 22 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-70 {
-  --tw-bg-opacity: 0.7;
-}
-
-.bg-\[url\(\'\/images\/stoel\.jpg\'\)\] {
-  background-image: url('/images/stoel.jpg');
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .object-cover {
@@ -996,14 +993,6 @@ video {
   color: rgb(255 45 22 / var(--tw-text-opacity));
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
-.bg-blend-multiply {
-  background-blend-mode: multiply;
-}
-
 .ring-offset-white {
   --tw-ring-offset-color: #FFFFFF;
 }
@@ -1016,16 +1005,8 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-200 {
-  transition-duration: 200ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
-}
-
-.ease-in {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .ease-in-out {
@@ -1047,42 +1028,6 @@ video {
   --tw-ring-offset-width: 2px;
 }
 
-.group:hover .group-hover\:mt-0 {
-  margin-top: 0px;
-}
-
-.group:hover .group-hover\:hidden {
-  display: none;
-}
-
-.group:hover .group-hover\:rotate-180 {
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:-rotate-180 {
-  --tw-rotate: -180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.group:hover .group-hover\:opacity-100 {
-  opacity: 1;
-}
-
-.group:hover .group-hover\:blur {
-  --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.group:hover .group-hover\:hue-rotate-180 {
-  --tw-hue-rotate: hue-rotate(180deg);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.group:hover .group-hover\:\[transform\:rotateY\(45deg\)\] {
-  transform: rotateY(45deg);
-}
-
 @media (min-width: 768px) {
   .md\:mb-6 {
     margin-bottom: 1.5rem;
@@ -1098,6 +1043,10 @@ video {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mb-5 {
+    margin-bottom: 1.25rem;
   }
 
   .md\:hidden {
@@ -1144,6 +1093,10 @@ video {
     gap: 2.5rem;
   }
 
+  .md\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .md\:gap-x-12 {
     -moz-column-gap: 3rem;
          column-gap: 3rem;
@@ -1169,7 +1122,7 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1312,10 +1265,26 @@ video {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .xl\:gap-40 {
+    gap: 10rem;
+  }
 }
 
-@media (min-width: 1280px) {
-  .xl\:gap-40 {
+@media (min-width: 1536px) {
+  .\32xl\:mr-auto {
+    margin-right: auto;
+  }
+
+  .\32xl\:justify-around {
+    justify-content: space-around;
+  }
+
+  .\32xl\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
+  .\32xl\:gap-40 {
     gap: 10rem;
   }
 }

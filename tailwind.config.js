@@ -19,6 +19,9 @@ module.exports = {
       extend: {
         fontFamily: {
           'sans' : 'Red Hat Display, sans-serif'
+        },
+        screens: {
+          'lg' : '1280px'
         }
       }
     },
