@@ -1152,6 +1152,11 @@ video {
          column-gap: 1.5rem;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:pt-8 {
     padding-top: 2rem;
   }
