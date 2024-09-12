@@ -11,27 +11,27 @@
   <link rel="stylesheet" href="css/flashcard.css">
 </head>
 <body class="">
-    <nav class="flex h-auto w-full items-center bg-grey py-4 lg:min-h-18 lg:px-[5%]">
-        <div class="mx-auto size-full items-center justify-between lg:flex">
-          <div class="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
+    <nav class="flex h-auto w-full items-center bg-grey py-4 md:min-h-18 md:px-[5%]">
+        <div class="mx-auto size-full items-center justify-between md:flex">
+          <div class="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 md:min-h-full md:px-0">
             <p class="font-bold leading-7 text-xl"><a href="index.html">Vanhove</a></p>
             
             <button
-              class="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden" id="hamburger">
+              class="-mr-2 flex size-12 flex-col items-center justify-center md:hidden" id="hamburger">
               <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
               <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
               <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
             </button>
           </div>
-          <ul class="hidden h-2/3 px-[5%] pt-4 lg:flex lg:h-auto lg:items-center lg:px-0 lg:pt-0" id="menu">
+          <ul class="hidden h-2/3 px-[5%] pt-4 md:flex md:h-auto md:items-center md:px-0 md:pt-0" id="menu">
             <li>
               <a href="index.html"
-                class="relative mx-auto block py-3 text-left text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 lg:px-4 lg:py-2 lg:text-base">
+                class="relative mx-auto block py-3 text-left text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 md:px-4 md:py-2 md:text-base">
                 Startpagina</a>
             </li>
             <li>
               <a href="diensten.html"
-                class="relative mx-auto block py-3 text-left text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 lg:px-4 lg:py-2 lg:text-base">
+                class="relative mx-auto block py-3 text-left text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 md:px-4 md:py-2 md:text-base">
                 Projecten</a>
             </li>
             <div class="mt-6 mb-6 flex flex-col gap-4 lg:ml-4 lg:mt-0 lg:flex-row lg:mb-0">
@@ -43,7 +43,7 @@
         </div>
       </nav>
 
-      <section class="px-[5%] py-8 md:py-20 lg:py-28">
+      <section class="px-[5%] py-8 md:py-24 lg:my-36">
         <div class="container">
           <div class="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
             <div>
@@ -62,7 +62,7 @@
     
             </div>
             <div>
-              <img src="./images/logo.jpg" class="w-full object-cover" alt="Placeholder image" />
+              <img src="./images/logo.jpg" class="w-full" alt="Placeholder image" />
             </div>
           </div>
         </div>
@@ -173,12 +173,12 @@
       </div>
       <div class="flex flex-col mb-6 md:flex-row ">
         <div class="mb-12 md:mr-6">
-          <img src="./images/huis.jpg" alt="" srcset="" class="w-96 mb-3 lg:h-96 lg:w-auto">
+          <img src="./images/huis.jpg" alt="" srcset="" class="w-96 mb-3 bg-contain md:w-auto md:h-96">
           <p class="font-semibold">Gevel geschilderd met witte verf</p>
           <p>Kortemark</p>
         </div>
         <div>
-          <img src="./images/huiswerken.jpg" alt="" srcset="" class="w-96 mb-3 lg:h-96 lg:w-auto">
+          <img src="./images/huiswerken.jpg" alt="" srcset="" class="w-96 mb-3  md:w-auto md:h-96">
           <p class="font-semibold">Oude vloer vervangen en nieuwe moderne aangelegd</p>
           <p>Hooglede</p>
         </div>
@@ -186,27 +186,27 @@
       <button class="py-2 px-3 bg-white rounded-lg max-w-24 md:hidden"><p class="font-medium">Projecten</p></button>
     </section>
 
-    <section class="px-[5%] " id="contact">
+    <section class="px-[5%] md:py-16" id="contact">
       <div class="my-10">
         <h2 class="text-4xl font-bold mb-3">Heeft u een <span class="text-red">vraag</span>  of wilt u een <span class="text-red">afspraak</span>  maken?</span> </h2>
         <p>Neem contact met ons op via onderstaande gegevens</p>
       </div>
-      <div class="flex flex-col md:flex-wrap md:flex-row md:gap-10 lg:mt-20 lg:gap-20 2xl:justify-around">
-        <div class="mb-12 2xl:mr-auto">
+      <div class="flex flex-col md:flex-wrap md:flex-row md:gap-10 lg:mt-20 lg:gap-20 justify-around">
+        <div class="mb-12 mr-auto">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M40 8H8C5.794 8 4 9.794 4 12V36C4 38.206 5.794 40 8 40H40C42.206 40 44 38.206 44 36V12C44 9.794 42.206 8 40 8ZM40 12V13.022L24 25.468L8 13.024V12H40ZM8 36V18.088L22.772 29.578C23.1222 29.8531 23.5547 30.0026 24 30.0026C24.4453 30.0026 24.8778 29.8531 25.228 29.578L40 18.088L40.004 36H8Z" fill="black"/>
           </svg>
           <p class="font-bold text-2xl mt-5">Email</p>
           <p class="mt-5">filip.vanhove@belgacom.net</p>
         </div>
-        <div class="mb-12 2xl:mr-auto">
+        <div class="mb-12 mr-auto">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M35.4147 24.5859C35.2291 24.4 35.0087 24.2525 34.7661 24.1519C34.5234 24.0513 34.2633 23.9995 34.0007 23.9995C33.738 23.9995 33.4779 24.0513 33.2353 24.1519C32.9927 24.2525 32.7722 24.4 32.5867 24.5859L29.3987 27.7739C27.9207 27.3339 25.1627 26.3339 23.4147 24.5859C21.6667 22.8379 20.6667 20.0799 20.2267 18.6019L23.4147 15.4139C23.6006 15.2283 23.748 15.0079 23.8487 14.7653C23.9493 14.5227 24.0011 14.2626 24.0011 13.9999C24.0011 13.7372 23.9493 13.4772 23.8487 13.2345C23.748 12.9919 23.6006 12.7715 23.4147 12.5859L15.4147 4.58591C15.2291 4.40002 15.0087 4.25255 14.7661 4.15193C14.5234 4.0513 14.2633 3.99951 14.0007 3.99951C13.738 3.99951 13.4779 4.0513 13.2353 4.15193C12.9927 4.25255 12.7722 4.40002 12.5867 4.58591L7.16267 10.0099C6.40267 10.7699 5.97467 11.8139 5.99067 12.8799C6.03667 15.7279 6.79067 25.6199 14.5867 33.4159C22.3827 41.2119 32.2747 41.9639 35.1247 42.0119H35.1807C36.2367 42.0119 37.2347 41.5959 37.9907 40.8399L43.4147 35.4159C43.6006 35.2303 43.748 35.0099 43.8487 34.7673C43.9493 34.5247 44.0011 34.2646 44.0011 34.0019C44.0011 33.7392 43.9493 33.4792 43.8487 33.2365C43.748 32.9939 43.6006 32.7735 43.4147 32.5879L35.4147 24.5859ZM35.1607 38.0099C32.6647 37.9679 24.1247 37.2979 17.4147 30.5859C10.6827 23.8539 10.0307 15.2839 9.99067 12.8379L14.0007 8.82791L19.1727 13.9999L16.5867 16.5859C16.3516 16.8208 16.1788 17.1106 16.0838 17.4291C15.9888 17.7475 15.9747 18.0846 16.0427 18.4099C16.0907 18.6399 17.2647 24.0939 20.5847 27.4139C23.9047 30.7339 29.3587 31.9079 29.5887 31.9559C29.9138 32.0258 30.2512 32.0128 30.57 31.9181C30.8887 31.8234 31.1785 31.65 31.4127 31.4139L34.0007 28.8279L39.1727 33.9999L35.1607 38.0099Z" fill="black"/>
           </svg>
           <p class="font-bold text-2xl mt-5">Telefoonnummer</p>
           <p class="mt-5">0475 84 40 63</p>
         </div>
-        <div class=" mb-12 2xl:mr-auto">
+        <div class=" mb-12 mr-auto">
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M24.0001 28C28.4121 28 32.0001 24.412 32.0001 20C32.0001 15.588 28.4121 12 24.0001 12C19.5881 12 16.0001 15.588 16.0001 20C16.0001 24.412 19.5881 28 24.0001 28ZM24.0001 16C26.2061 16 28.0001 17.794 28.0001 20C28.0001 22.206 26.2061 24 24.0001 24C21.7941 24 20.0001 22.206 20.0001 20C20.0001 17.794 21.7941 16 24.0001 16Z" fill="black"/>
             <path d="M22.8402 43.628C23.1787 43.8697 23.5842 43.9997 24.0002 43.9997C24.4161 43.9997 24.8217 43.8697 25.1602 43.628C25.7682 43.198 40.0582 32.88 40.0002 20C40.0002 11.178 32.8222 4 24.0002 4C15.1782 4 8.00018 11.178 8.00018 19.99C7.94218 32.88 22.2322 43.198 22.8402 43.628ZM24.0002 8C30.6182 8 36.0002 13.382 36.0002 20.01C36.0422 28.886 27.2242 36.856 24.0002 39.47C20.7782 36.854 11.9582 28.882 12.0002 20C12.0002 13.382 17.3822 8 24.0002 8Z" fill="black"/>
@@ -215,7 +215,7 @@
           <p class="mt-5">Amersveldestraat 88</p>
           <p>8610 Kortemark, België</p>
         </div>
-        <div class="mb-5 2xl:mr-auto">
+        <div class="mb-5 mr-auto">
           <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M22.8966 0.0714035C17.1552 0.618919 11.9397 3.59897 8.5 8.29979C7.87931 9.14453 6.90517 10.7793 6.61207 11.4597L6.46552 11.7961H4.93103C3.83621 11.7961 3.25862 11.8274 2.88793 11.9134C1.14655 12.3279 0 13.6733 0 15.3158C0 17.3651 1.7069 18.8356 4.06897 18.8356H4.74138V20.0088V21.1821H4.06897C1.7069 21.1821 0 22.6525 0 24.7018C0 26.3444 1.14655 27.6897 2.88793 28.1042C3.25862 28.1903 3.83621 28.2215 4.93103 28.2215H6.46552L6.61207 28.5579C6.90517 29.2384 7.87931 30.8731 8.5 31.7178C11.7155 36.1136 16.3534 38.9372 21.7759 39.8054C23.3448 40.0635 26.1724 40.0635 27.7586 39.8132C31.6983 39.2032 35.2845 37.5371 38.1724 34.9716C39.4569 33.8297 40 32.7659 40 31.3737C40 30.482 39.8362 29.8641 39.4138 29.121C39.0172 28.4327 38.0862 27.5724 37.3534 27.2204C35.8103 26.4773 33.8534 26.493 32.3621 27.2438C32.0603 27.4003 31.4397 27.8383 30.9828 28.2215C29.7155 29.2931 28.6379 29.8876 27.2845 30.2786C25.3621 30.8262 23.431 30.7401 21.5259 30.0205C20.8103 29.7546 19.5603 29.0272 18.9741 28.5344L18.5948 28.2215H21.7845C24.3621 28.2215 25.0603 28.1981 25.4741 28.1042C27.2155 27.6897 28.3621 26.3444 28.3621 24.7018C28.3621 23.0593 27.2155 21.7139 25.4741 21.2994C25.0431 21.1977 24.181 21.1821 20.0259 21.1821H15.0862V20.0088V18.8356H20.0259C24.181 18.8356 25.0431 18.8199 25.4741 18.7182C27.2155 18.3037 28.3621 16.9584 28.3621 15.3158C28.3621 13.6733 27.2155 12.3279 25.4741 11.9134C25.0603 11.8195 24.3621 11.7961 21.7845 11.7961H18.5948L18.9741 11.4832C19.5603 10.9904 20.8103 10.263 21.5259 9.99709C23.431 9.27749 25.3621 9.19146 27.2845 9.73897C28.6466 10.1301 29.6983 10.7167 31.0172 11.8195C31.6121 12.3201 32.0948 12.6486 32.5172 12.8442C34.5259 13.7593 36.9224 13.423 38.4914 11.9916C39.5345 11.053 40 10.0049 40 8.64394C40 6.98575 39.319 5.89072 37.3103 4.32639C34.1466 1.86256 30.5086 0.415558 26.5603 0.0635834C25.5431 -0.0224571 23.8879 -0.0224571 22.8966 0.0714035ZM26.4483 2.4179C30.0603 2.76987 33.4914 4.23252 36.1466 6.55556C37.1724 7.4394 37.3534 7.72881 37.3966 8.5579C37.431 9.12106 37.4052 9.25403 37.2241 9.61383C36.9655 10.1222 36.5 10.5602 35.9569 10.7949C35.6466 10.9357 35.4138 10.9748 34.8707 10.9748C33.9655 10.9748 33.6293 10.8184 32.5345 9.91105C30.819 8.47968 29.0345 7.62712 26.8793 7.21258C25.8707 7.01704 23.7586 7.01704 22.7586 7.20475C20.431 7.65841 18.5517 8.58919 16.8103 10.1535C15.8707 10.9904 15.3448 11.6162 14.319 13.0866L13.6207 14.1035L19.2931 14.1426C24.569 14.1817 24.9828 14.1895 25.1983 14.3225C26.0172 14.8074 25.9483 15.9572 25.0862 16.3483C24.8103 16.4812 24.3276 16.4891 18.8276 16.4891H12.8621L12.7069 17.4042C12.4828 18.6948 12.4828 21.3228 12.7069 22.6056L12.8621 23.5286H18.8276C24.3276 23.5286 24.8103 23.5364 25.0862 23.6693C25.9483 24.0604 26.0172 25.2102 25.1983 25.6952C24.9828 25.8281 24.569 25.8359 19.2931 25.8751L13.6207 25.9142L14.2414 26.8137C15.319 28.3623 15.8707 29.0194 16.7672 29.825C18.5345 31.4206 20.4052 32.3514 22.7586 32.8129C23.7672 33.0084 25.8707 33.0006 26.8966 32.805C29.0172 32.3905 30.8362 31.5223 32.5345 30.1066C33.6293 29.1993 33.9655 29.0428 34.8707 29.0428C35.4138 29.0428 35.6466 29.0819 35.9569 29.2227C36.5 29.4574 36.9655 29.8954 37.2241 30.4038C37.4052 30.7636 37.431 30.8966 37.3966 31.4597C37.3707 31.8586 37.3017 32.195 37.1983 32.367C36.8621 32.9537 35.2069 34.3224 33.8362 35.1594C30.3448 37.279 26.1379 38.1003 22.069 37.4589C16.0862 36.5125 10.9138 32.4061 8.62069 26.7745L8.25 25.8751H5.91379C3.30172 25.8751 3.16379 25.8516 2.78448 25.3354C2.37069 24.78 2.61207 23.9666 3.27586 23.6693C3.53448 23.5442 3.84483 23.5286 5.58621 23.5286H7.59483L7.5431 23.1922C7.25 21.1977 7.25 18.8199 7.5431 16.8176L7.59483 16.4891H5.58621C3.84483 16.4891 3.53448 16.4734 3.27586 16.3483C2.35345 15.9337 2.35345 14.6979 3.27586 14.2834C3.5431 14.1582 3.86207 14.1426 5.91379 14.1426H8.25L8.57759 13.3369C10.9828 7.37683 16.5259 3.15314 22.8448 2.44919C23.9914 2.32404 25.3707 2.3084 26.4483 2.4179Z" fill="black"/>
           </svg>
