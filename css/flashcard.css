@@ -41,10 +41,93 @@ html {
     align-items: center;
     gap: 5rem;
   }
+  
+  .imgcard{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 24rem 24rem;
+  }
+
+  .background-imgcard{
+    background-image: url('../images/Afbeelding\ van\ WhatsApp\ op\ 2024-07-24\ om\ 19.20.03_980d6e29.jpg');
+  }
+
+  .foreground-imgcard{
+    background-image: url('https://i.imgur.com/PfIWek4.jpg');
+    width: 50%;
+  }
+
+  .testimg{
+    content: url('../images/huis.jpg');
+  }
+
+  .testimg:checked{
+    content: url('../images/kalei.jpg');
+  }
+
+  #toChange1{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    position: absolute;
+  }
+  #toChange1 + label{
+    cursor: pointer;
+    width: 18rem;
+    height: 12rem;
+    background-image: url('../images/huis.jpg');
+    display: block;
+    background-size: cover;
+  }
+
+  #toChange1:checked + label{
+    background-image: url('../images/huisafter.jpg');
+  }
+
+  #toChange2{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    position: absolute;
+  }
+  #toChange2 + label{
+    cursor: pointer;
+    width: 18rem;
+    height: 12rem;
+    background-image: url('../images/huiswerken.jpg');
+    display: block;
+    background-size: cover;
+  }
+
+  #toChange2:checked + label{
+    background-image: url('../images/huiswerkenafter.jpg');
+  }
+
 
   @media (min-width: 567px) {
     .flashcontainer {
       width: 24rem;
       height: 576px;
     }
+
   }
+  
+  @media (min-width: 1400px) {
+    #toChange1 + label{
+      width: 40rem;
+      height: 18rem;
+    }
+
+    #toChange2 + label{
+      width: 40rem;
+      height: 18rem;
+    }
+
+  }
+
+
+
+
