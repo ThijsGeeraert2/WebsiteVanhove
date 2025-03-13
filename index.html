@@ -87,13 +87,13 @@
     </section>
 
     <section class="px-[5%] flex flex-col gap-10 justify-center items-center mb-12 lg:mb-32 text-center" id="diensten">
-      <div class="flex flex-col md:text-center mb-2 mt-9 md:mt-12 lg:mt-32">
+      <div class="flex flex-col md:text-center gap-6 mb-2 mt-9 md:mt-12 lg:mt-32">
         <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">Onze <span class="text-red"> diensten</span></h1>
         <p class="">Wij voeren verschillende soorten schilder en decoratiewerken uit.</p>
       </div>
 
       <!-- Grid Layout for all sizes -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-6xl">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-20 w-full max-w-6xl">
 
         <!-- Card 1 -->
         <div class="flashcontainer text-center w-full max-w-sm mx-auto">
@@ -189,7 +189,7 @@
 
     <section class="px-[5%] pb-6 flex flex-col self-stretch bg-grey">
       <div class="my-10 text-center">
-        <h2 class="text-4xl font-bold mb-3">
+        <h2 class="text-4xl font-bold mb-3 md:text-5xl lg:text-6xl">
           Onze <span class="text-red">projecten</span>
         </h2>
         <p>
@@ -215,13 +215,6 @@
           <p>Kortemark</p>
         </div>
       </div>
-
-      <!-- Button Centered -->
-      <div class="flex justify-center md:hidden">
-        <button class="py-2 px-3 bg-white rounded-lg shadow-md">
-          <p class="font-medium">Projecten</p>
-        </button>
-      </div>
     </section>
     <script>
     document.getElementById("image1").addEventListener("click", function () {
@@ -232,31 +225,6 @@
       this.src = this.src.includes("huiswerken.jpg") ? "images/huiswerkenafter.jpg" : "images/huiswerken.jpg";
     });
     </script>
-
-
-    <!--<section class="px-[5%] pb-6 flex flex-col self-stretch  bg-grey">-->
-    <!--  <div class="my-10 ">-->
-    <!--    <h2 class="text-4xl font-bold mb-3">Onze <span class="text-red">projecten</span> </h2>-->
-    <!--    <p>Recente opdrachten in de verf gezet, <b>klik</b> op de afbeelding voor een voor en na</p>-->
-    <!--  </div>-->
-    <!--  <div class="flex flex-col mb-6 md:flex-row ">-->
-    <!--    <div class="mb-12 md:mr-6">-->
-    <!--      <input type="checkbox" id="toChange1"  alt="foto huis 1" srcset="" class="">-->
-    <!--      <label for="toChange1"></label>-->
-    <!--      <p class="font-semibold mt-2">Gevel geschilderd met witte verf</p>-->
-    <!--      <p>Koksijde</p>-->
-    <!--    </div>-->
-    <!--    <div>-->
-    <!--      <input type="checkbox" id="toChange2"  alt="foto huis 2" srcset="" class="">-->
-    <!--      <label for="toChange2"></label>-->
-    <!---->
-    <!--      <p class="font-semibold mt-2">Gevel kaleien (The Allrounder)</p>-->
-    <!--      <p>Kortemark</p>-->
-    <!--    </div>-->
-    <!--  </div>-->
-    <!--  <button class="py-2 px-3 bg-white rounded-lg max-w-24 md:hidden"><p class="font-medium">Projecten</p></button>-->
-    <!--</section>-->
-    <!---->
 
     <section class="px-[5%] md:py-16" id="contact">
       <div class="my-10">
