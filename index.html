@@ -1,153 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanhove - schilderwerken</title>
     <link href="./css/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/flashcard.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/flashcard.css">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <meta name="description" content="Vanhove Design Interieur: ervaren vakmanschap in schilderwerken, behang, kaleiwerk, vloerbekleding en raamdecoratie. Vrijblijvende offerte!" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="description" content="Vanhove Design Interieur: ervaren vakmanschap in schilderwerken, behang, kaleiwerk, vloerbekleding en raamdecoratie. Vrijblijvende offerte!" />
 
 
-</head>
-<body class="">
+  </head>
+  <body class="">
     <nav class="flex h-auto w-full items-center bg-grey py-4 md:min-h-18 md:px-[5%]">
-        <div class="mx-auto size-full items-center justify-between md:flex">
-          <div class="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 md:min-h-full md:px-0">
-            <p class="font-bold leading-7 text-xl">Vanhove</p>
-            
-            <button
-              class="-mr-2 flex size-12 flex-col items-center justify-center md:hidden" id="hamburger">
-              <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
-              <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
-              <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
+      <div class="mx-auto size-full items-center justify-between md:flex">
+        <div class="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 md:min-h-full md:px-0">
+          <p class="font-bold leading-7 text-xl">Vanhove</p>
+
+          <button
+            class="-mr-2 flex size-12 flex-col items-center justify-center md:hidden" id="hamburger">
+            <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
+            <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
+            <div class="my-[3px] h-0.5 w-6 transform bg-primary transition duration-300 ease-in-out lg:hidden"></div>
+          </button>
+        </div>
+        <ul class="hidden h-2/3 px-[5%] pt-4 md:flex md:h-auto md:items-center md:px-0 md:pt-0" id="menu">
+          <li>
+            <a href="index.html"
+              class="relative mx-auto block py-3 text-left text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 md:px-4 md:py-2 md:text-base hover:text-red duration-200">
+              Startpagina</a>
+          </li>
+          <li>
+            <a href="#diensten"
+              class="relative mx-auto block py-3 text-left text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 md:px-4 md:py-2 md:text-base hover:text-red duration-200">
+              Diensten</a>
+          </li>
+          <div class="mt-6 mb-6 flex flex-col gap-4 lg:ml-4 lg:mt-0 lg:flex-row lg:mb-0">
+            <button class="btn-primary" >
+              <a href="#contact">Contact</a>
             </button>
           </div>
-          <ul class="hidden h-2/3 px-[5%] pt-4 md:flex md:h-auto md:items-center md:px-0 md:pt-0" id="menu">
-            <li>
-              <a href="index.html"
-                class="relative mx-auto block py-3 text-left text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 md:px-4 md:py-2 md:text-base hover:text-red duration-200">
-                Startpagina</a>
-            </li>
-            <li>
-              <a href="#diensten"
-                class="relative mx-auto block py-3 text-left text-md ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2 md:px-4 md:py-2 md:text-base hover:text-red duration-200">
-                Diensten</a>
-            </li>
-            <div class="mt-6 mb-6 flex flex-col gap-4 lg:ml-4 lg:mt-0 lg:flex-row lg:mb-0">
-              <button class="btn-primary" >
-                <a href="#contact">Contact</a>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="px-[5%] py-8 md:py-24 lg:my-36">
+      <div class="container">
+        <div class="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
+          <div>
+            <h2 class="mb-5 text-4xl font-bold md:mb-6 md:text-5xl lg:text-7xl">
+              <span class="text-red">Schilder-</span> en <span class="text-red">Decoratiewerken</span>
+            </h2>
+            <p class="mb-6 font-bold md:mb-8 md:text-xl">
+              Als kwaliteit en verzorgd werk belangrijk zijn...
+              Dan ben je bij Vanhove Design Interieur op de juiste plek 
+            </p>
+            <div class="my-6 flex flex-col gap-4  lg:mt-0 md:flex-row lg:mb-0">
+              <button class="btn-primary bg-grey text-primary" >
+                <a href="#diensten">Diensten</a>
               </button>
             </div>
-          </ul>
-        </div>
-      </nav>
 
-      <section class="px-[5%] py-8 md:py-24 lg:my-36">
-        <div class="container">
-          <div class="grid grid-cols-1 gap-y-12 md:grid-flow-row md:grid-cols-2 md:items-center md:gap-x-12 lg:gap-x-20">
-            <div>
-              <h2 class="mb-5 text-4xl font-bold md:mb-6 md:text-5xl lg:text-7xl">
-                <span class="text-red">Schilder-</span> en <span class="text-red">Decoratiewerken</span>
-              </h2>
-              <p class="mb-6 font-bold md:mb-8 md:text-xl">
-                Als kwaliteit en verzorgd werk belangrijk zijn...
-                Dan ben je bij Vanhove Design Interieur op de juiste plek 
-              </p>
-              <div class="my-6 flex flex-col gap-4  lg:mt-0 md:flex-row lg:mb-0">
-                <button class="btn-primary bg-grey text-primary" >
-                  <a href="#diensten">Diensten</a>
-                </button>
-              </div>
-    
-            </div>
-            <div>
-              <img src="./images/logo.jpg" class="w-full" alt="logo" />
-            </div>
+          </div>
+          <div>
+            <img src="./images/logo.jpg" class="w-full" alt="logo" />
           </div>
         </div>
-      </section>
-
-
-      <section class="flex flex-col px-[5%] py-12 items-center bg-grey gap-6 lg:py-32">
-        <p class="text-4xl font-bold md:text-5xl lg:text-6xl"> <span class="text-red">Wie</span>  zijn wij? </p>
-        <p class="max-w-xl">Bij Vanhove Design Interieur brengen we al meer dan een halve eeuw vakmanschap en passie naar uw interieur. Onder leiding van Filip Vanhove, de derde generatie in ons familiebedrijf, zijn we gespecialiseerd in schilder- en decoratiewerken die uw ruimtes tot leven brengen.</p>
-      </section>
-      
-
-
-    <section class="px-[5%] flex flex-col gap-5 justify-center md:items-center mb-12 md:gap-5 lg:gap-20 lg:mb-32" id="diensten">
-      <div class="flex flex-col md:text-center mb-2 gap-4 mt-32">
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">Onze <span class="text-red"> diensten</span></h1>
-        <p class="">Wij voeren verschillende soorten schilder en decoratiewerken uit.</p>
       </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 container font-bold">
-        <div class="flashcontainer md:mb-5">
+    </section>
+
+
+    <section class="flex flex-col px-[5%] py-12 items-center bg-grey gap-6 lg:py-32">
+      <p class="text-4xl font-bold md:text-5xl lg:text-6xl"> <span class="text-red">Wie</span>  zijn wij? </p>
+      <p class="max-w-xl">Bij Vanhove Design Interieur brengen we al meer dan een halve eeuw vakmanschap en passie naar uw interieur. Onder leiding van Filip Vanhove, de derde generatie in ons familiebedrijf, zijn we gespecialiseerd in schilder- en decoratiewerken die uw ruimtes tot leven brengen.</p>
+    </section>
+
+    <section class="px-[5%] flex flex-col gap-10 justify-center items-center mb-12 lg:mb-32" id="diensten">
+      <div class="text-center mb-10">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold">
+          Onze <span class="text-red">diensten</span>
+        </h1>
+        <p class="mt-4">Wij voeren verschillende soorten schilder en decoratiewerken uit.</p>
+      </div>
+
+      <!-- Grid Container -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full max-w-6xl">
+
+        <!-- Card 1 -->
+        <div class="flashcontainer text-center">
           <div class="card">
-            <img src="./images/schilder.jpg"  alt="foto schilder" class="w-52 md:w-96 md:h-[576px] mb-4 rounded-[10px] front">
+            <img src="./images/schilder.jpg" alt="foto schilder" class="w-full h-[576px] mb-4 rounded-[10px] front">
             <div class="back">
               <p>Decoratieve technieken: kalkverf en kalei</p>
               <p>Binnenschilderwerk</p>
               <p>Buitenschilderwerk</p>
               <p>Gevels</p>
             </div>
-          
           </div>
-          <p class="ml-28 sm:ml-36 mt-3">Schilderen</p>
+          <p class="mt-3 font-bold">Schilderen</p>
         </div>
-        <div class="flashcontainer ">
+
+        <!-- Card 2 -->
+        <div class="flashcontainer text-center">
           <div class="card">
-            <img src="./images/stoel.jpg"  alt="foto behangen" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <img src="./images/stoel.jpg" alt="foto behangen" class="w-full h-[576px] mb-4 rounded-[10px] front">
             <div class="back">
               <p>Vlies</p>
               <p>Natuurproduct</p>
               <p>Vinyl</p>
               <p>Textiel</p>
-
             </div>
           </div>
-          <p class="ml-28 sm:ml-36 mt-3">Behangen</p>
-
+          <p class="mt-3 font-bold">Behangen</p>
         </div>
-        <div class="flashcontainer ">
+
+        <!-- Card 3 -->
+        <div class="flashcontainer text-center">
           <div class="card">
-            <img src="./images/vloer.jpg"  alt="foto vloerbekleding" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <img src="./images/vloer.jpg" alt="foto vloerbekleding" class="w-full h-[576px] mb-4 rounded-[10px] front">
             <div class="back">
               <p>Tapijt</p>
               <p>Vinyl</p>
               <p>Tegels</p>
               <p>Parket</p>
-
             </div>
           </div>
-          <p class="ml-28 sm:ml-36 mt-3">Vloerbekleding</p>
-
+          <p class="mt-3 font-bold">Vloerbekleding</p>
         </div>
-        <div class="flashcontainer ">
+
+        <!-- Card 4 -->
+        <div class="flashcontainer text-center">
           <div class="card">
-            <img src="./images/laminaten.png"  alt="foto laminaten" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <img src="./images/laminaten.png" alt="foto laminaten" class="w-full h-[576px] mb-4 rounded-[10px] front">
             <div class="back">
               <p>Quick-step Master Installer</p>
               <p>PVC-Laminaat</p>
               <p>(Afgewerkte) Parketvloeren</p>
               <p>Milieuvriendelijk Laminaat</p>
-
             </div>
           </div>
-          <p class="ml-28 sm:ml-36 mt-3">Laminaten</p>
-
+          <p class="mt-3 font-bold">Laminaten</p>
         </div>
-        <div class="flashcontainer ">
+
+        <!-- Card 5 -->
+        <div class="flashcontainer text-center">
           <div class="card">
-            <img src="./images/kalei.jpg"  alt="foto kaleiwerk" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <img src="./images/kalei.jpg" alt="foto kaleiwerk" class="w-full h-[576px] mb-4 rounded-[10px] front">
             <div class="back">
               <p>The Performer</p>
               <p>The Allrounder</p>
@@ -155,12 +160,13 @@
               <p>The Original</p>
             </div>
           </div>
-          <p class="ml-28 sm:ml-36 mt-3">Kaleiwerk</p>
-
+          <p class="mt-3 font-bold">Kaleiwerk</p>
         </div>
-        <div class="flashcontainer ">
+
+        <!-- Card 6 -->
+        <div class="flashcontainer text-center">
           <div class="card">
-            <img src="./images/raam.jpg"  alt="foto raamdecoratie" class="w-96 h-[576px] mb-4 rounded-[10px] front">
+            <img src="./images/raam.jpg" alt="foto raamdecoratie" class="w-full h-[576px] mb-4 rounded-[10px] front">
             <div class="back">
               <p>Horizontale Lamellen</p>
               <p>Verticale Lamellen</p>
@@ -168,35 +174,82 @@
               <p>Glas-en Overgordijnen</p>
             </div>
           </div>
-          <p class="ml-28 sm:ml-36 mt-3">Raamdecoratie</p>
-
+          <p class="mt-3 font-bold">Raamdecoratie</p>
         </div>
+
       </div>  
     </section>
 
-    <section class="px-[5%] pb-6 flex flex-col self-stretch  bg-grey">
-      <div class="my-10 ">
-        <h2 class="text-4xl font-bold mb-3">Onze <span class="text-red">projecten</span> </h2>
-        <p>Recente opdrachten in de verf gezet, <b>klik</b> op de afbeelding voor een voor en na</p>
+    <section class="px-[5%] pb-6 flex flex-col self-stretch bg-grey">
+      <div class="my-10 text-center">
+        <h2 class="text-4xl font-bold mb-3">
+          Onze <span class="text-red">projecten</span>
+        </h2>
+        <p>
+          Recente opdrachten in de verf gezet, <b>klik</b> op de afbeelding voor een voor en na
+        </p>
       </div>
-      <div class="flex flex-col mb-6 md:flex-row ">
-        <div class="mb-12 md:mr-6">
-          <input type="checkbox" id="toChange1"  alt="foto huis 1" srcset="" class="">
-          <label for="toChange1"></label>
+
+      <!-- Responsive Grid with Centered Content -->
+      <div class="grid gap-6 mb-6 md:grid-cols-2">
+        <div class="flex flex-col items-center text-center">
+          <label for="toChange1" class="block w-full max-w-md">
+            <img src="images/huis.jpg" id="image1" alt="foto huis 1" class="w-full h-auto rounded-lg shadow-md cursor-pointer">
+          </label>
           <p class="font-semibold mt-2">Gevel geschilderd met witte verf</p>
           <p>Koksijde</p>
         </div>
-        <div>
-          <input type="checkbox" id="toChange2"  alt="foto huis 2" srcset="" class="">
-          <label for="toChange2"></label>
-          
+
+        <div class="flex flex-col items-center text-center">
+          <label for="toChange2" class="block w-full max-w-md">
+            <img src="images/huiswerken.jpg" id="image2" alt="foto huis 2" class="w-full h-auto rounded-lg shadow-md cursor-pointer">
+          </label>
           <p class="font-semibold mt-2">Gevel kaleien (The Allrounder)</p>
           <p>Kortemark</p>
         </div>
       </div>
-      <button class="py-2 px-3 bg-white rounded-lg max-w-24 md:hidden"><p class="font-medium">Projecten</p></button>
-    </section>
 
+      <!-- Button Centered -->
+      <div class="flex justify-center md:hidden">
+        <button class="py-2 px-3 bg-white rounded-lg shadow-md">
+          <p class="font-medium">Projecten</p>
+        </button>
+      </div>
+    </section>
+    <script>
+      document.getElementById("image1").addEventListener("click", function () {
+        this.src = this.src.includes("huis.jpg") ? "images/huisafter.jpg" : "images/huis.jpg";
+      });
+
+      document.getElementById("image2").addEventListener("click", function () {
+        this.src = this.src.includes("huiswerken.jpg") ? "images/huiswerkenafter.jpg" : "images/huiswerken.jpg";
+      });
+    </script>
+
+
+    <!--<section class="px-[5%] pb-6 flex flex-col self-stretch  bg-grey">-->
+    <!--  <div class="my-10 ">-->
+    <!--    <h2 class="text-4xl font-bold mb-3">Onze <span class="text-red">projecten</span> </h2>-->
+    <!--    <p>Recente opdrachten in de verf gezet, <b>klik</b> op de afbeelding voor een voor en na</p>-->
+    <!--  </div>-->
+    <!--  <div class="flex flex-col mb-6 md:flex-row ">-->
+    <!--    <div class="mb-12 md:mr-6">-->
+    <!--      <input type="checkbox" id="toChange1"  alt="foto huis 1" srcset="" class="">-->
+    <!--      <label for="toChange1"></label>-->
+    <!--      <p class="font-semibold mt-2">Gevel geschilderd met witte verf</p>-->
+    <!--      <p>Koksijde</p>-->
+    <!--    </div>-->
+    <!--    <div>-->
+    <!--      <input type="checkbox" id="toChange2"  alt="foto huis 2" srcset="" class="">-->
+    <!--      <label for="toChange2"></label>-->
+    <!---->
+    <!--      <p class="font-semibold mt-2">Gevel kaleien (The Allrounder)</p>-->
+    <!--      <p>Kortemark</p>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--  <button class="py-2 px-3 bg-white rounded-lg max-w-24 md:hidden"><p class="font-medium">Projecten</p></button>-->
+    <!--</section>-->
+    <!---->
 
     <section class="px-[5%] md:py-16" id="contact">
       <div class="my-10">
@@ -251,10 +304,10 @@
                 class="ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">Startpagina</a>
             </li>
             <!-- <li class="font-semibold">
-              <a href="#"
-                class="ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">Projecten</a>
-            </li> -->
-        
+<a href="#"
+class="ring-offset-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-primary focus-visible:ring-offset-2">Projecten</a>
+</li> -->
+
           </ul>
           <div class="flex items-start justify-start justify-items-center gap-x-3 lg:justify-self-end">
             <a href="https://www.facebook.com/profile.php?id=100063473533769" target="_blank"
@@ -279,7 +332,7 @@
 
     <script src="js/script.js"></script>
 
-</body>
+  </body>
 </html>
 
 
